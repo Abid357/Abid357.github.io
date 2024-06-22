@@ -7,6 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Abid Farhan's Portfolio</title>
   <link rel="icon" type="image/x-icon" href="./assets/icons/favicon.ico" />
+  <link rel="stylesheet" href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
   <script src="./js/animation.js" defer></script>
   <script src="./js/color-mode.js" defer></script>
   <script src="./js/project-slideshow.js" defer></script>
@@ -132,40 +134,40 @@
       <div id="grid__bl__btn">Projects</div>
       <div id="grid__bl__content">
         <div id="grid__bl__content__projects">
-          <div class="project p-1">
-            <img class="project__img project-1" src="assets/portfolio-projects/project-1-dark.png" alt="Project 1" />
-            <h2 class="project__title">Project One</h2>
-            <button class="btn" onclick="window.location.href='https://netlify.com'">
-              Demo
-            </button>
-            <button class="btn" onclick="window.location.href='https://github.com'">
-              GitHub
-            </button>
-          </div>
-          <div class="project p-2">
-            <img class="project__img project-2" src="assets/portfolio-projects/project-2-dark.png" alt="Project 2" />
-            <h2 class="project__title">Project Two</h2>
-            <button class="btn" onclick="window.location.href='https://netlify.com'">
-              Demo
-            </button>
-            <button class="btn" onclick="window.location.href='https://github.com'">
-              GitHub
-            </button>
-          </div>
-          <div class="project p-3">
-            <img class="project__img project-3" src="assets/portfolio-projects/project-3-dark.png" alt="Project 3" />
-            <h2 class="project__title">Project Three</h2>
-            <button class="btn" onclick="window.location.href='https://netlify.com'">
-              Demo
-            </button>
-            <button class="btn" onclick="window.location.href='https://github.com'">
-              GitHub
-            </button>
-          </div>
           <button class="arrow" onclick="navigateProject(-1)">
             &#10094;
           </button>
           <button class="arrow" onclick="navigateProject(1)">&#10095;</button>
+          <button class="arrow" onclick="window.open('https://github.com/Abid357?tab=repositories', '_blank')">
+            <i class="fa-solid fa-list"></i>
+          </button>
+          <div class="project p-1">
+            <img class="project__img project-1" src="assets/portfolio-projects/cflow.gif" alt="Project 1" />
+            <h2 class="project__title">cFlow ERP</h2>
+            <button class="btn" onclick="window.open('https://www.youtube.com/watch?v=xJm2R7UQrUg&ab_channel=AbidFarhan', '_blank')">
+              <i class="fa-brands fa-youtube fa-2xl"></i>
+            </button>
+            <button class="btn" onclick="window.open('https://github.com/Abid357/cflow', '_blank')">
+              <i class="fa-brands fa-github fa-2xl"></i>
+            </button>
+          </div>
+          <div class="project p-2">
+            <img class="project__img project-2" src="assets/portfolio-projects/git-workshop-gdsc-aus.jpg" alt="Project 2" />
+            <h2 class="project__title">Git Workshop</h2>
+            <button class="btn" onclick="window.open('https://youtube.com/playlist?list=PLdPDdGyfAAjynIHECDAj8Z8pa4yG9Sw6F&si=PfKu3JVDi9Zf7nU6', '_blank')">
+              <i class="fa-brands fa-youtube fa-2xl"></i>
+            </button>
+            <button class="btn" onclick="window.open('https://github.com/Abid357/git-workshop-gdsc-aus', '_blank')">
+              <i class="fa-brands fa-github fa-2xl"></i>
+            </button>
+          </div>
+          <div class="project p-3">
+            <img class="project__img project-3" src="assets/portfolio-projects/console-battleground.png" alt="Project 3" />
+            <h2 class="project__title">Console Battleground</h2>
+            <button class="btn" onclick="window.open('https://github.com/Abid357/console-battleground', '_blank')" style="flex-basis: 100% !important;">
+              <i class="fa-brands fa-github fa-2xl"></i>
+            </button>
+          </div>
         </div>
       </div>
     </div>

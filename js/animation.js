@@ -147,7 +147,7 @@ function handleWindowResize() {
         blContent.style.transform = "translateX(10vw) translateY(7vh)";
         blContent.style.width = "15rem";
         blContent.style.height = "0";
-        blContent.style.top = "40vh";
+        blContent.style.top = "25vh";
         blContent.style.display = "block";
         projectOne.style.width = "100%";
         projectTwo.style.width = "100%";
