@@ -170,10 +170,18 @@ article p {
   align-items: center;
 }
 
+.cards__content > article > p {
+  line-height: 100%;
+}
+
 .cards__content__text {
   color: var(--text);
   text-align: left;
-  margin: 0 1rem;
+  font-size: 0.7rem;
+}
+
+.mb4 {
+  margin-bottom: 0.4rem;
 }
 
 /* TOP RIGHT CORNER */
@@ -205,6 +213,7 @@ article p {
   gap: 0.2rem;
   margin: 0;
   width: fit-content;
+  color: #333;
 }
 
 .experience__skill div {
@@ -216,6 +225,17 @@ article p {
 .experience__skill div img {
   padding: 0;
   margin-right: 0.5rem;
+}
+
+.experience__skill table {
+  border-spacing: 10px;
+}
+
+.experience__skill table tr td {
+  border-radius: 30px;
+  background: lightgray;
+  font-size: 0.7rem;
+  padding: 0 0.3rem 0 0.3rem;
 }
 
 .experience__skill div h2 {
