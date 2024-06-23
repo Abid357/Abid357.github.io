@@ -249,7 +249,7 @@ tlBtn.onclick = function () {
   if (activeCorner === "top-left") {
     playClosingAnimation("reverse-animate-top-left");
   } else {
-    trBtn.innerHTML = "Experience";
+    trBtn.innerHTML = "Skills";
     blBtn.innerHTML = "Projects";
     brBtn.innerHTML = "Contact";
 
@@ -290,7 +290,7 @@ trBtn.onclick = function () {
 
     // Setting activeCorner
     activeCorner = "top-right";
-    trBtn.innerHTML = "&uarr;<br/>Experience";
+    trBtn.innerHTML = "&uarr;<br/>Skills";
 
     handleWindowResize();
     playAnimation("animate-top-right", "reverse-animate-top-right");
@@ -320,7 +320,7 @@ blBtn.onclick = function () {
     playClosingAnimation("reverse-animate-bottom-left");
   } else {
     tlBtn.innerHTML = "About";
-    trBtn.innerHTML = "Experience";
+    trBtn.innerHTML = "Skills";
     brBtn.innerHTML = "Contact";
 
     // Setting activeCorner
@@ -355,7 +355,7 @@ brBtn.onclick = function () {
     playClosingAnimation("reverse-animate-bottom-right");
   } else {
     tlBtn.innerHTML = "About";
-    trBtn.innerHTML = "Experience";
+    trBtn.innerHTML = "Skills";
     blBtn.innerHTML = "Projects";
 
     // Setting activeCorner
