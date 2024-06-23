@@ -134,7 +134,7 @@ body:after {
   align-items: center;
   justify-content: flex-start;
   position: absolute;
-  bottom: -2%;
+  bottom: -3%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
